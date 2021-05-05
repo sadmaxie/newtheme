@@ -7,8 +7,8 @@
  */
 
 
- @import url('https://sadmaxie.github.io/themes/src/transparentDiscord.css');
- @import url('https://sadmaxie.github.io/themes/src/settingsIcons.css');
+ @import url('https://raw.githubusercontent.com/sadmaxie/newtheme/main/sor/transparent.css');
+ @import url('https://raw.githubusercontent.com/sadmaxie/newtheme/main/sor/iconssettings.css');
  
  :root {
      /*Background of the elements when showing*/

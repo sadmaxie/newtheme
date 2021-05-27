@@ -9,76 +9,84 @@
 
  @import url('https://sadmaxie.github.io/newtheme/sor/transparent.css');
  @import url('https://sadmaxie.github.io/newtheme/sor/iconssettings.css');
+
  
- :root {
-     /*Background of the elements when showing*/
-     --background-image: url(https://cdnb.artstation.com/p/assets/images/images/025/259/171/large/guangjing-zhang-4.jpg); /*background image*/
-     --bg-blur: 0px; /* blur of the background image*/
+:root {
+    /*Background of the elements when showing*/
+    --background-image:        url(https://cdnb.artstation.com/p/assets/images/images/025/259/171/large/guangjing-zhang-4.jpg);   /*background image*/
+    --bg-blur:                 0px          ;                                                                                     /* blur of the background image*/
+
+    /*Background of the elements when showing ∀ */
+    --the-maincolor: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
+    /*main app hover color ∀ */
+    --showing-background: linear-gradient(195deg, rgb(0, 182, 121) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
+    /*Changes the color of the background when hovering ∀ */
+    --element-hovered: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23, 201, 246, 0.527) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
+
+
+    /*settings for the looks*/
+    --server-hiding-width:     64px                         ;                                          /*Amount that will be shown when the channels panel hides | Default 50px*/
+    --members-hiding-width:    2.9%                         ;                                          /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
+    --showing-width:           13.5%                        ;                                          /*Amount that will be shown when the panels show | Default 13.5%*/
+    --transition-speed:        0.35s                        ;                                          /*Changes the transition speed*/
+    --hidden-background:       transparent                 ;                                          /*Background of the elements when hidden*/
+    
+
+    --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*mian color*/
+    --sidebar-color:         rgba(0, 0, 0, 0.5)           ;                                          /*left messages & channales name sidebar*/
+    --DM-channel-colors:     rgba(0, 0, 0, 0.24)          ;                                          /*for chat  channels color in mian min*/
+    --popout-color:          rgba(2, 2, 17, 0.26)         ;                                          /*the back of popout color like profile and settings*/
+    --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*color of little elements*/
+    --main-accent-rgb:              35, 57, 117             ;                                          /*RGB code of main accent for some elements, change this if you change main accent*/
+    --links:                 rgb(109, 143, 196)           ;                                          /*Color for links*/
+    --panel-boxes:           rgba(6, 7, 15, 0.55)         ;                                          /*Changes the background of the surrounded panels (the color of the mşain elements  message box-users backdround-server name-server list-)*/
+    --panel-border-radius:     12px                         ;                                          /*Changes the radius of the surrounded panels and the popout panels*/
+
+
+    /*top bar*/
+    --topbar-color:          rgba(2, 4, 17, 0.26)         ;                                          /*tpp bar color*/
+    --topbar-blur:             4px                          ;                                          /*top bar blur*/
+    --topbar-buttons-color:  white                        ;                                          /*for the botons of the top  bar like add fri&all&pen*/
+
+
+    /*buttons*/
+    --chat-hover:          rgba(0, 0, 0, 0.404)           ;                                          /*Message background when you hovering on it and the mian  ships */
+    --buttons-background:  rgba(0, 0, 0, 0.3)             ;                                          /*Changes the color of the buttons and switchers anywhere*/
+    --buttons-border:        0px solid rgb(43, 255, 0)    ;                                          /*Changes the color and the background size of the buttons */
+    --buttons-radius:        12px                           ;                                          /*Changes the radius of the buttons*/
+
+
+    /*Code for the gradient*/
+    --underline-gradient:    linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15, 8, 74, 0.473) 87%);
+    --settings-width:        60%                            ;                                          /*Width for the settings window*/
+    --settings-heigth:       85%                            ;                                          /*Width for the settings window*/
+    --icon-padding:          50px                           ;                                          /*Changes the padding between the icon and the text | Default 35px*/
+
+
+    --popout-loadingicon-color: #d73d3d                   ;                                          /*for LOADING ICON color*/
+
+    
+    /*nessage & chat*/
+    --messages-padding:      6px                            ;                                          /*size of place btw messages*/
+    --messages-radius:       8px                            ;                                          /*message side size*/
+    --messages-color:      rgba(0, 0, 0, 0.301)           ;                                          /*message background  color*/
+    --mention-color:       rgba(0, 102, 255, 0.226)       ;                                          /*mention color rpg*/
+
+
+    /*server*/
+    --channlename-color:   rgb(180, 180, 180)             ;                                          /*cjannles and the mian  color*/
+    --panel-chat-channle:  rgba(15, 6, 6, 0.0)            ;                                          /*servre background after hover on any channle*/
+
+    
+    /*more stuff*/
+    --transition-time:       250ms                          ; 
+    --transition-type:       cubic-bezier(0.4,0,0.2,1)      ;
+    --popout-blur:           5px                            ;
+    --app-radius:            8px                            ;
+    --popout-radius:         var(--app-radius)              ;
+}
  
-     /*settings for the looks*/
-     --server-hiding-width: 64px; /*Amount that will be shown when the channels panel hides | Default 50px*/
-     --members-hiding-width: 2.9%; /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
-     --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/
-     --transition-speed: 0.35s; /*Changes the transition speed*/
-     --hidden-background: transparent; /*Background of the elements when hidden*/
-     
-     /*Background of the elements when showing*/
-     --the-maincolor: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
-     /*main app hover color ∀ */
-     --showing-background: linear-gradient(195deg, rgb(0, 182, 121) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
-     --main-accent: rgba(35, 57, 117, 0.493); /*mian color*/
-     --sidebar-color: rgba(0, 0, 0, 0.5); /*left messages & channales name sidebar*/
-     --DM-channel-colors: rgba(0, 0, 0, 0.24);/*for chat  channels color in mian min*/
-     --popout-color: rgba(2, 2, 17, 0.26);/*the back of popout color like profile and settings*/
-     --main-accent: rgba(35, 57, 117, 0.493); /*color of little elements*/
-     --main-accent-rgb: 35, 57, 117; /*RGB code of main accent for some elements, change this if you change main accent*/
-     --links: rgb(109, 143, 196); /*Color for links*/
-     --panel-boxes: rgba(6, 7, 15, 0.55); /*Changes the background of the surrounded panels (the color of the mşain elements  message box-users backdround-server name-server list-)*/
-     --panel-border-radius: 12px; /*Changes the radius of the surrounded panels and the popout panels*/
-     /*Changes the color of the background when hovering ∀ */
-     --element-hovered: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23, 201, 246, 0.527) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
- 
-     /*top bar*/
-     --topbar-color: rgba(2, 4, 17, 0.26); /*tpp bar color*/
-     --topbar-blur: 4px; /*top bar blur*/
-     --topbar-buttons-color: white ; /*for the botons of the top  bar like add fri&all&pen*/
- 
-     /*buttons*/
-     --chat-hover: rgba(0, 0, 0, 0.404); /*Message background when you hovering on it and the mian  ships */
-     --buttons-background: rgba(0, 0, 0, 0.3); /*Changes the color of the buttons and switchers anywhere*/
-     --buttons-border: 0px solid rgb(43, 255, 0); /*Changes the color and the background size of the buttons */
-     --buttons-radius: 12px; /*Changes the radius of the buttons*/
- 
-     /*Code for the gradient*/
-     --underline-gradient: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15, 8, 74, 0.473) 87%);
-     --settings-width: 60%; /*Width for the settings window*/
-     --settings-heigth: 85%; /*Width for the settings window*/
-     --icon-padding: 50px; /*Changes the padding between the icon and the text | Default 35px*/
- 
-     --popout-loadingicon-color: #d73d3d; /*for LOADING ICON color*/
- 
-     /*nessage & chat*/
-     --messages-padding: 6px; /*size of place btw messages*/
-     --messages-radius: 8px; /*message side size*/
-     --messages-color: rgba(0, 0, 0, 0.301); /*message background  color*/
-     --mention-color: rgba(0, 102, 255, 0.226); /*mention color rpg*/
- 
-     /*server*/
-     --channlename-color:rgb(180, 180, 180); /*cjannles and the mian  color*/
-     --panel-chat-channle: rgba(15, 6, 6, 0.0);/*servre background after hover on any channle*/
- 
-     
-     /*more stuff*/
-     --transition-time: 250ms; 
-     --transition-type: cubic-bezier(0.4,0,0.2,1);
-     --popout-blur: 5px;
-     --app-radius: 8px;
-     --popout-radius: var(--app-radius);
- 
- 
- }
- 
- /*APP*/
+/*APP*/
  
  /*off opit*/
  
@@ -116,8 +124,8 @@
      transform: translateX(-50%);
  }
  */
- 
- /* APP ELEMENTS -> LOADING ICON */
+
+/* APP ELEMENTS -> LOADING ICON */
  @keyframes spinnerone {
      0% {
        -webkit-transform: rotate(0deg);

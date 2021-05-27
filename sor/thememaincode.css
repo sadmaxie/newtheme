@@ -10,12 +10,12 @@
  @import url('https://sadmaxie.github.io/newtheme/sor/transparent.css');
  @import url('https://sadmaxie.github.io/newtheme/sor/iconssettings.css');
 
- 
+
 :root {
     /*Background of the elements when showing*/
     --background-image:        url(https://cdnb.artstation.com/p/assets/images/images/025/259/171/large/guangjing-zhang-4.jpg);   /*background image*/
-    --bg-blur:                 0px          ;                                                                                     /* blur of the background image*/
-
+    --bg-blur:                 0px                          ;                                                                     /* blur of the background image*/
+ 
     /*Background of the elements when showing ∀ */
     --the-maincolor: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
     /*main app hover color ∀ */
@@ -29,7 +29,7 @@
     --members-hiding-width:    2.9%                         ;                                          /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
     --showing-width:           13.5%                        ;                                          /*Amount that will be shown when the panels show | Default 13.5%*/
     --transition-speed:        0.35s                        ;                                          /*Changes the transition speed*/
-    --hidden-background:       transparent                 ;                                          /*Background of the elements when hidden*/
+    --hidden-background:       transparent                  ;                                          /*Background of the elements when hidden*/
     
 
     --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*mian color*/

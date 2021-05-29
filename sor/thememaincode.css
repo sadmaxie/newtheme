@@ -35,15 +35,15 @@
     --DM-channel-colors:     rgba(0, 0, 0, 0.24)          ;                                          /*for chat  channels color in mian min*/
     --popout-color:          rgba(2, 2, 17, 0.26)         ;                                          /*the back of popout color like profile and settings*/
     --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*color of little elements*/
-    --main-accent-rgb:             35, 57, 117            ;                                          /*RGB code of main accent for some elements, change this if you change main accent*/
+    --main-accent-rgb:             35, 57, 117              ;                                          /*RGB code of main accent for some elements, change this if you change main accent*/
     --links:                 rgb(109, 143, 196)           ;                                          /*Color for links*/
     --panel-boxes:           rgba(6, 7, 15, 0.55)         ;                                          /*Changes the background of the surrounded panels (the color of the mşain elements  message box-users backdround-server name-server list-)*/
-    --panel-border-radius:     12px                       ;                                          /*Changes the radius of the surrounded panels and the popout panels*/
+    --panel-border-radius:     12px                         ;                                          /*Changes the radius of the surrounded panels and the popout panels*/
 
 
     /*top bar*/
     --topbar-color:          rgba(2, 4, 17, 0.26)         ;                                          /*tpp bar color*/
-    --topbar-blur:             4px                        ;                                          /*top bar blur*/
+    --topbar-blur:             4px                          ;                                          /*top bar blur*/
     --topbar-buttons-color:  white                        ;                                          /*for the botons of the top  bar like add fri&all&pen*/
 
 
@@ -51,7 +51,7 @@
     --chat-hover:          rgba(0, 0, 0, 0.404)           ;                                          /*Message background when you hovering on it and the mian  ships */
     --buttons-background:  rgba(0, 0, 0, 0.3)             ;                                          /*Changes the color of the buttons and switchers anywhere*/
     --buttons-border:        0px solid rgb(43, 255, 0)    ;                                          /*Changes the color and the background size of the buttons */
-    --buttons-radius:        12px                         ;                                          /*Changes the radius of the buttons*/
+    --buttons-radius:        12px                           ;                                          /*Changes the radius of the buttons*/
     --search-button-color: rgba(0, 11, 27, 0.205)         ;                                          /*for search tool on top left*/
 
     /*Code for the gradient*/
@@ -62,21 +62,21 @@
 
 
     /*poppot windows*/
-    --popout-loadingicon-color:  #d73d3d                    ;                                          /*for LOADING ICON color*/
-    --popout-search-friends-box: rgba(0, 0, 0, 0)           ;                                          /*for popout friends chat window*/
+    --popout-loadingicon-color:  #d73d3d                  ;                                          /*for LOADING ICON color*/
+    --popout-search-friends-box: rgba(0, 0, 0, 0)         ;                                          /*for popout friends chat window*/
  
     
     /*nessage & chat*/
     --messages-padding:      6px                            ;                                          /*size of place btw messages*/
     --messages-radius:       8px                            ;                                          /*message side size*/
-    --messages-color:      rgba(0, 0, 0, 0.301)             ;                                          /*message background  color*/
-    --mention-color:       rgba(0, 102, 255, 0.226)         ;                                          /*mention color rpg*/
+    --messages-color:      rgba(0, 0, 0, 0.301)           ;                                          /*message background  color*/
+    --mention-color:       rgba(0, 102, 255, 0.226)       ;                                          /*mention color rpg*/
 
 
     /*server*/
-    --channlename-color:   rgb(180, 180, 180)               ;                                          /*cjannles and the mian  color*/
-    --panel-chat-channle:  rgba(15, 6, 6, 0.0)              ;                                          /*servre background after hover on any channle*/
-  
+    --channlename-color:   rgb(180, 180, 180)             ;                                          /*cjannles and the mian  color*/
+    --panel-chat-channle:  rgba(15, 6, 6, 0.0)            ;                                          /*servre background after hover on any channle*/
+
     
     /*more stuff*/
     --transition-time:       250ms                          ; 

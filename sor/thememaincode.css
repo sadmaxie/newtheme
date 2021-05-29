@@ -35,7 +35,7 @@
     --DM-channel-colors:     rgba(0, 0, 0, 0.24)          ;                                          /*for chat  channels color in mian min*/
     --popout-color:          rgba(2, 2, 17, 0.26)         ;                                          /*the back of popout color like profile and settings*/
     --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*color of little elements*/
-    --main-accent-rgb:              35, 57, 117             ;                                          /*RGB code of main accent for some elements, change this if you change main accent*/
+    --main-accent-rgb:               35, 57, 117            ;                                          /*RGB code of main accent for some elements, change this if you change main accent*/
     --links:                 rgb(109, 143, 196)           ;                                          /*Color for links*/
     --panel-boxes:           rgba(6, 7, 15, 0.55)         ;                                          /*Changes the background of the surrounded panels (the color of the mşain elements  message box-users backdround-server name-server list-)*/
     --panel-border-radius:     12px                         ;                                          /*Changes the radius of the surrounded panels and the popout panels*/
@@ -236,8 +236,7 @@
 }
 
 
-.banner-2QYc2d,
-.profileBanner-33-uE1 ,
+
 .container-S9SaVf,
 .container-24CyRY,
 .stageSection-3mAD8V,

@@ -27,7 +27,7 @@
     --members-hiding-width:    2.9%                         ;                                          /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
     --showing-width:           13.5%                        ;                                          /*Amount that will be shown when the panels show | Default 13.5%*/
     --transition-speed:        0.35s                        ;                                          /*Changes the transition speed*/
-    --hidden-background:       transparent                  ;                                          /*Background of the elements when hidden*/
+    --hidden-background:        transparent                 ;                                          /*Background of the elements when hidden*/
     
 
     --main-accent:           rgba(35, 57, 117, 0.493)     ;                                          /*mian color*/
@@ -63,7 +63,7 @@
 
     /*poppot windows*/
     --popout-loadingicon-color:  #d73d3d                  ;                                          /*for LOADING ICON color*/
-    --popout-search-friends-box: rgba(0, 0, 0, 0)         ;                                          /*for popout friends chat window*/
+    --popout-search-friends-box: rgba(0, 0, 0, 0)     ;                                          /*for popout friends chat window*/
 
     
     /*nessage & chat*/
@@ -234,9 +234,8 @@
      transition: var(--transition-time) var(--transition-type);
      z-index: -1;
 }
-
-
-
+.banner-2QYc2d,
+.profileBanner-33-uE1 ,
 .container-S9SaVf,
 .container-24CyRY,
 .stageSection-3mAD8V,

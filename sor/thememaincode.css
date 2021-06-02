@@ -73,6 +73,8 @@
     --messages-radius:       8px                            ;                                          /*message side size*/
     --messages-color:      rgba(0, 0, 0, 0.301)           ;                                          /*message background  color*/
     --mention-color:       rgba(0, 102, 255, 0.226)       ;                                          /*mention color rpg*/
+    --new-message-rpg:     rgba(25, 25, 92, 0.521)        ;                                          /* new message rpg color*/
+    --new-message-color:   rgba(25, 25, 92, 0.288)        ;                                          /*new message sec rpg color u change this if u change --new-message-rpg */  
 
 
     /*server*/
@@ -1010,7 +1012,9 @@
  }
  
  .group-spacing-16 .divider-3_HH5L.beforeGroup-1rH1F0 + .cozy-3raOZG.wrapper-2a6GCs { /*First new message settings*/
-     background-color: rgba(var(--main-accent-rgb), 0.05);
+    background-color: var(--new-message-color);
+    border-color: var(--new-message-color) !important;
+    box-shadow: inset 0px 0px 4px 2px var(--new-message-rpg), 2px 0px 5px 5px var(--new-message-rpg);
  }
  
  .group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ[id="---new-messages-bar"] + .cozy-3raOZG.wrapper-2a6GCs { /*New message on new day*/

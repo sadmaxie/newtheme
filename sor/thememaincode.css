@@ -74,7 +74,7 @@
     --messages-color:      rgba(0, 0, 0, 0.301)           ;                                          /*message background  color*/
     --mention-color:       rgba(0, 102, 255, 0.226)       ;                                          /*mention color rpg*/
     --new-message-rpg:     rgba(25, 25, 92, 0.521)        ;                                          /* new message rpg color*/
-    --new-message-color:   rgba(25, 25, 92, 0.288)        ;                                          /*new message sec rpg color u change this if u change --new-message-rpg */  
+    --new-message-color:   rgba(22, 22, 78, 0.226)        ;                                          /*new message sec rpg color u change this if u change --new-message-rpg */  
 
 
     /*server*/

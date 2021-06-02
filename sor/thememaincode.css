@@ -3,11 +3,12 @@
  * @description  Sets discord to be FULLY transparent.
  * @source       
  * @author       sad maxie
- * @version      1.0 
+ * @version      2.0 
 */
 
 @import url('https://sadmaxie.github.io/newtheme/sor/transparent.css');
 @import url('https://sadmaxie.github.io/newtheme/sor/iconssettings.css');
+
 
 :root {
     /*Background of the elements when showing*/

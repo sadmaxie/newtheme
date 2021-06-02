@@ -94,19 +94,6 @@
  
 
 
-.bg-h5JY_x {
-    background-color: transparent;
-    background-position: var(--backgroundPosition);
-    background-repeat: var(--backgroundRepeat);
-    background-size: var(--backgroundSize);
-    background-image: var(--backgroundImage);
-    opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur))
-}
-
-
-
-
 /*APP*/
  
  /*off opit*/
@@ -319,6 +306,16 @@
      transition: var(--transition-time) var(--transition-type);
      z-index: -1; 
     
+}
+
+.bg-h5JY_x {
+    background-color: transparent;
+    background-position: var(--backgroundPosition);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    background-image: var(--backgroundImage);
+    opacity: var(--backgroundOpacity);
+    filter: blur(var(--backgroundBlur))
 }
 
 /*message edit*/

@@ -66,6 +66,7 @@
     /*poppot windows*/
     --popout-loadingicon-color:  #d73d3d                  ;                                          /*for LOADING ICON color*/
     --popout-search-friends-box: rgba(0, 0, 0, 0)         ;                                          /*for popout friends chat window*/
+    --profile-background: blur(8px)                            ;
  
     
     /*nessage & chat*/
@@ -230,7 +231,6 @@
 .container-S9SaVf {
     background: var(--popout-color2) !important
 }
-
 
 .container-24CyRY,
 .replyBar-1YLQ2F,
@@ -830,97 +830,120 @@
          border-right-color: var(--main-accent);
      }
  
- /*User card settings*/
+/*User card settings*/
  
- .userPopout-3XzG_A { /*User card settings*/
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
-     box-shadow: var(--elevation-high);
-     border-radius: var(--panel-border-radius);
-     border: var(--panel-border);
-     background-color: var(--panel-boxes);
- }
- 
-     .userPopout-3XzG_A::before {
-         -webkit-backface-visibility: hidden;
-         -webkit-perspective: 1000;
-         -webkit-transform: translate3d(0,0,0);
-         -webkit-transform: translateZ(0);
-         backface-visibility: hidden;
-         perspective: 1000;
-         transform: translate3d(0,0,0);
-         transform: translateZ(0);
-         content: '';
-         position: absolute;
-         height: 100%;
-         width: 100%;
-         border-radius: var(--panel-border-radius);
-         -webkit-backdrop-filter: blur(5px);
-         backdrop-filter: blur(5px);
-         z-index: -1;
-     }
- 
- .backdrop-1wrmKB { /*Backdrop filter when opening user profile*/
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
- }
- 
- .note-3HfJZ5 { /*Add a note box*/
-     box-shadow: var(--elevation-high);
-     background-color: var(--panel-boxes);
-     opacity: 0.7;
-     border-radius: var(--panel-border-radius);
-     height: 40px;
-     width: 218px;
-     margin-left: 0px;
- }
- 
- .inputWrapper-31_8H8 { /*Message user box*/
-     box-shadow: var(--elevation-high);
-     background-color: var(--panel-boxes);
-     opacity: 0.7;
-     border-radius: var(--panel-border-radius);
- }
- 
- .popoutRight-1veHKi.noArrow-2foL9g { /*User card when clicking a mention*/
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
-     box-shadow: var(--elevation-high);
-     border-radius: var(--panel-border-radius);
-     border: var(--panel-border);
-     background: transparent;
-     -webkit-backdrop-filter: blur(7px);
-     backdrop-filter: blur(7px);
- }
- 
- .bodyInnerWrapper-Z8WDxe .bodyTitle-Y0qMQz { /*Roles and notes title*/
-     text-align: center;
-     color: white;
- }
- 
- .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7 { /*Playing now text*/
-     justify-content: center;
- }
- 
- /*Role tags*/
+.userPopout-xaxa6l { /*User card settings*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    box-shadow: var(--elevation-high);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+    background-color: var(--panel-boxes);
+}
+.userPopout-xaxa6l::before {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+.backdrop-1wrmKB { /*Backdrop filter when opening user profile*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+}
+.note-1MiCN7 { /*Add a note box*/
+    box-shadow: var(--elevation-high);
+    background-color: var(--panel-boxes);
+    opacity: 0.7;
+    border-radius: var(--panel-border-radius);
+    height: 40px;
+    width: 218px;
+    margin-left: 0px;
+}
+.inputWrapper-31_8H8 { /*Message user box*/
+    box-shadow: var(--elevation-high);
+    background-color: var(--panel-boxes);
+    opacity: 0.7;
+    border-radius: var(--panel-border-radius);
+}
+.popoutRight-1veHKi.noArrow-2foL9g { /*User card when clicking a mention*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    box-shadow: var(--elevation-high);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+    background: transparent;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+.bodyInnerWrapper-1NH0NQ .bodyTitle-3FWCs2 { /*Roles and notes title*/
+    text-align: center;
+    color: white;
+}
+.theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7 { /*Playing now text*/
+    justify-content: center;
+}
+.headerNormal-1l1Znk { /*New header*/
+    background-color: transparent;
+}
+.headerTop-2cWpdB { /*New header top*/
+    background-color: transparent;
+    border: none;
+}
+.input-2_SIlA { /*Message box input*/
+    background-color: transparent;
+}
+.avatar-37jOim { /*User card avatar*/
+    top: 6px;
+    left: 6px;
+    border: none;
+    background-color: transparent;
+}
+.aboutMeSection-3bipSD,
+.aboutMeSection---MkQa { /*About me*/
+    background-color: transparent;
+}
+.aboutMeTitle-2M2L3- { /*About me title*/
+    width: fit-content;
+    color: white!important;
+    transform: translateX(75%);
+}
+.betaBadge-1Ve-yb,
+.betaBadge-2EDLLs { /*Beta Badge*/
+    background-color: transparent!important;
+    color: white;
+}
+
+/*Role tags*/
  
  .role-2irmRk { /*Role in user card*/
      position: relative;
@@ -1453,84 +1476,84 @@
      border-bottom: unset;
  }
  
- /*Profile panel settings*/
- 
- .root-SR8cQa { /*Main panel*/
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
-     background-color: var(--panel-boxes);
-     border-radius: var(--panel-border-radius);
-     -webkit-backdrop-filter: blur(7px);
-     backdrop-filter: blur(7px);
- }
- 
- .headerFill-adLl4x { /*Removes the weird background*/
-     background-color: transparent;
- }
- 
- .lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp { /*Some buttons colors*/
-     color: white;
- }
- 
- .actionButton-3W1xZa { /*Send message button settings*/
-     background-color: var(--buttons-background);
-     border: var(--buttons-border);
-     border-radius: var(--buttons-radius);
-     color: var(--buttons-color);
- }
- 
- .lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled { /*Disabled button on profile*/
-     background-color: var(--buttons-disabled);
-     border: var(--buttons-border);
-     border-radius: var(--buttons-radius);
-     color: var(--buttons-color);
- }
- 
- .lookOutlined-3sRXeN.colorWhite-rEQuAQ { /*Spotify play buttons*/
-     background-color: var(--buttons-background);
-     border: var(--buttons-border);
-     border-radius: var(--buttons-radius);
-     color: var(--buttons-color);
- }
- 
- .note-QfFU8y { /*Profile note box*/
-     box-shadow: var(--elevation-high);
-     background-color: var(--panel-boxes);
-     opacity: 0.5;
-     border-radius: var(--panel-border-radius);
-     padding-left: 10px;
-     padding-top: 20px;
- }
- 
-     .note-QfFU8y textarea { /*Note box text area*/
-         margin-top: -15px;
-         color: white;
-     }
- 
- .listRow-hutiT_:hover { /*Hovered mutual server*/
-     background-color: var(--chat-hover);
-     border-radius: var(--panel-border-radius);
- }
- 
- .inner-1ilYF7 {
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
-     -webkit-backdrop-filter: blur(5px);
-     backdrop-filter: blur(5px);
- }
- 
+/*Profile panel settings*/
+
+.root-3QyAh1 { /*Main panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+.headerFill-adLl4x { /*Removes the weird background*/
+    background-color: transparent;
+}
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp { /*Some buttons colors*/
+    color: white;
+}
+.actionButton-3W1xZa { /*Send message button settings*/
+    background-color: var(--buttons-background);
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+    color: var(--buttons-color);
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled { /*Disabled button on profile*/
+    background-color: var(--buttons-disabled);
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+    color: var(--buttons-color);
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ { /*Spotify play buttons*/
+    background-color: var(--buttons-background);
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+    color: var(--buttons-color);
+}
+.note-QfFU8y { /*Profile note box*/
+    box-shadow: var(--elevation-high);
+    background-color: var(--panel-boxes);
+    opacity: 0.5;
+    border-radius: var(--panel-border-radius);
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.note-QfFU8y textarea { /*Note box text area*/
+    margin-top: -15px;
+    color: white;
+}
+.listRow-1iDGel:hover { /*Hovered mutual server*/
+    background-color: var(--chat-hover);
+    border-radius: var(--panel-border-radius);
+}
+.inner-1ilYF7 {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.topSection-y3p-_D,
+.headerFill-39azRn,
+.body-r6_QPy { /*New profile modal classes*/
+    background-color: transparent;
+}
+.tabBarContainer-37hZsr,
+.userInfoSection-q_35fn+.userInfoSection-q_35fn { /*Profile divider*/
+    border-top: none;
+}
+
  /*Buttons settings*/
  
  .button-3To2tQ { /*Settings for some buttons*/
@@ -2321,21 +2344,21 @@
  /*Go live window*/
  
  .theme-dark .root-1gCeng { /*Main panel window*/
-     -webkit-backface-visibility: hidden;
-     -webkit-perspective: 1000;
-     -webkit-transform: translate3d(0,0,0);
-     -webkit-transform: translateZ(0);
-     backface-visibility: hidden;
-     perspective: 1000;
-     transform: translate3d(0,0,0);
-     transform: translateZ(0);
-     -webkit-backdrop-filter: blur(var(--popout-blur));
-     backdrop-filter: blur(var(--popout-blur));
-     background-color: var(--panel-boxes);
-     border-radius: var(--panel-border-radius);
-     border: var(--panel-border-radius);
- }
- 
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(var(--popout-blur));
+    backdrop-filter: blur(var(--popout-blur));
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border-radius);
+}
+
  .card-2Mz_4z { /*Stream settings*/
      background: var(--panel-boxes);
      border-radius: var(--panel-border-radius);
